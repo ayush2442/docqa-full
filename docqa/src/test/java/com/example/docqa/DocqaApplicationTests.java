@@ -2,13 +2,10 @@ package com.example.docqa;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.TestPropertySource;
+import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
-@TestPropertySource(properties = {
-		"gemini.api-key=test-key",
-		"file.upload-dir=./test-uploads"
-})
+@ActiveProfiles("test")
 class DocqaApplicationTests {
 
 	@Test
