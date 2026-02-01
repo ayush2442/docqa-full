@@ -1,0 +1,7 @@
+".env" 
+"uploads/" 
+"test-uploads/" 
+"*.log" 
+"target/" 
+"node_modules/" 
+"dist/" 
